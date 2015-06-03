@@ -4,7 +4,7 @@ var Hapi = require("hapi");
 var server = new Hapi.Server();
 
 
-server.connect({
+server.connection({
 	port:8888
 });
 
