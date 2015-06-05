@@ -5,7 +5,7 @@ var server = new Hapi.Server();
 
 
 server.connection({
-	port:8888
+	port:80
 });
 
 server = require("./routes.js")(server);
