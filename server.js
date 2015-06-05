@@ -14,4 +14,4 @@ server = require("./routes.js")(server);
 
 server.start(function() {
 	console.log("Server started");
-})
+});
