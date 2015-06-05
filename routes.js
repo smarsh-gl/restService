@@ -57,7 +57,7 @@ function dealWithRoutes(server) {
 					"pageID":"1",
 					"content":ipsum
 				});
-			},700);
+			},1500);
 		}
 	});
 	
@@ -72,7 +72,7 @@ function dealWithRoutes(server) {
 					"pageID":"2",
 					"content":ipsum
 				});
-			},1300);
+			},2000);
 		}
 	});
 	
