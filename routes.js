@@ -8,7 +8,7 @@ function dealWithRoutes(server) {
 	
 	server.route({
 		method:"GET",
-		path:"/array1",
+		path:"/promise/array1",
 		handler: function(request, reply) {
 			var ret = [
 				{"name":"Steve"},
@@ -21,7 +21,7 @@ function dealWithRoutes(server) {
 	});
 	server.route({
 		method:"GET",
-		path:"/array2",
+		path:"/promise/array2",
 		handler: function(request, reply) {
 			var ret = [
 				{"name":"Joe"},
@@ -34,7 +34,7 @@ function dealWithRoutes(server) {
 	});
 	server.route({
 		method:"GET",
-		path:"/array3",
+		path:"/promise/array3",
 		handler: function(request, reply) {
 			var ret = [
 				{"name":"Frank"},
