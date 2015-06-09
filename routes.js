@@ -25,7 +25,8 @@ function dealWithRoutes(server) {
 		handler: function(request, reply) {
 			var ret = [
 				{"name":"Joe"},
-				{"name":"Earl"}
+				{"name":"Earl"},
+				{"name":"Matt"}
 			];
 			setTimeout(function() {
 				reply(ret);				
@@ -38,7 +39,9 @@ function dealWithRoutes(server) {
 		handler: function(request, reply) {
 			var ret = [
 				{"name":"Frank"},
-				{"name":"Julie"}
+				{"name":"Julie"},
+				{"name":"Shawn"},
+				{"name":"Paul"}
 			];
 			setTimeout(function() {
 				reply(ret);				
