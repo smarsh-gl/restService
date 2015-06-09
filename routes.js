@@ -15,7 +15,7 @@ function dealWithRoutes(server) {
 				{"name":"Fred"}
 			];
 			setTimeout(function() {
-				reply(ret);				
+				reply(ret).header('Content-Type', "application/json");				
 			},500);
 		}
 	});
@@ -29,7 +29,7 @@ function dealWithRoutes(server) {
 				{"name":"Matt"}
 			];
 			setTimeout(function() {
-				reply(ret);				
+				reply(ret).header('Content-Type', "application/json");;				
 			},0);
 		}
 	});
@@ -44,7 +44,7 @@ function dealWithRoutes(server) {
 				{"name":"Paul"}
 			];
 			setTimeout(function() {
-				reply(ret);				
+				reply(ret).header('Content-Type', "application/json");;				
 			},1500);
 		}
 	});
